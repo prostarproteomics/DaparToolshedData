@@ -15,12 +15,6 @@ were acquired for each condition.
 The dataset is either available as a CSV file (see
 inst/extdata/Exp1_R2_prot.txt)
 
-## Usage
-
-``` r
-data(Exp1_R2_pept)
-```
-
 ## Format
 
 An object of class \`QFeatures\` related to proteins quantification. It
@@ -46,14 +40,13 @@ experiments. Proteomics, 16(1), 29-32.
 ## Examples
 
 ``` r
-GetData('Exp1_R2_pept')
+GetData("Exp1_R2_pept")
 #> see ?DaparToolshedData and browseVignettes('DaparToolshedData') for documentation
 #> downloading 1 resources
 #> retrieving 1 resource
 #> 
 #> loading from cache
-#> An instance of class QFeatures (type: bulk) with 2 sets:
+#> An instance of class QFeatures (type: bulk) with 1 set:
 #> 
-#>  [1] original: SummarizedExperiment with 14048 rows and 6 columns 
-#>  [2] logAssay: SummarizedExperiment with 14048 rows and 6 columns 
+#>  [1] Convert: SummarizedExperiment with 14048 rows and 6 columns 
 ```

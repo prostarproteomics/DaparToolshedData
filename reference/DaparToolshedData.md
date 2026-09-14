@@ -23,7 +23,6 @@ Samuel Wieczorek
 ## Examples
 
 ``` r
-
 DaparToolshedData()
 #>             Title
 #> 1   Exp1_R25_prot

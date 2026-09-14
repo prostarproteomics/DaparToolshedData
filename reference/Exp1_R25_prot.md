@@ -17,12 +17,6 @@ inst/extdata/Exp1_R25_prot.txt), or as a \`QFeatures\` structure
 (Exp1_R25_prot.ft). In the latter case, the quantitative data are those
 of the raw intensities.
 
-## Usage
-
-``` r
-data(Exp1_R25_prot)
-```
-
 ## Format
 
 An object of class \`QFeatures\` related to proteins quantification. It
@@ -48,14 +42,13 @@ experiments. Proteomics, 16(1), 29-32.
 ## Examples
 
 ``` r
-GetData('Exp1_R25_prot')
+GetData("Exp1_R25_prot")
 #> see ?DaparToolshedData and browseVignettes('DaparToolshedData') for documentation
 #> downloading 1 resources
 #> retrieving 1 resource
 #> 
 #> loading from cache
-#> An instance of class QFeatures (type: bulk) with 2 sets:
+#> An instance of class QFeatures (type: bulk) with 1 set:
 #> 
-#>  [1] original: SummarizedExperiment with 2384 rows and 6 columns 
-#>  [2] logAssay: SummarizedExperiment with 2384 rows and 6 columns 
+#>  [1] Convert: SummarizedExperiment with 2384 rows and 6 columns 
 ```

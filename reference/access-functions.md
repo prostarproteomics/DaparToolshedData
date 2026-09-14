@@ -24,8 +24,7 @@ A dataset loaded
 GetData('Exp1_R25_prot')
 #> see ?DaparToolshedData and browseVignettes('DaparToolshedData') for documentation
 #> loading from cache
-#> An instance of class QFeatures (type: bulk) with 2 sets:
+#> An instance of class QFeatures (type: bulk) with 1 set:
 #> 
-#>  [1] original: SummarizedExperiment with 2384 rows and 6 columns 
-#>  [2] logAssay: SummarizedExperiment with 2384 rows and 6 columns 
+#>  [1] Convert: SummarizedExperiment with 2384 rows and 6 columns 
 ```

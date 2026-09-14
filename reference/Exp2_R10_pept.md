@@ -17,12 +17,6 @@ inst/extdata/Exp2_R10_pept.txt), or as a \`QFeatures\` structure
 (Exp2_R10_pept.ft). In the latter case, the quantitative data are those
 of the raw intensities.
 
-## Usage
-
-``` r
-data(Exp2_R10_pept)
-```
-
 ## Format
 
 An object of class \`QFeatures\` related to peptides quantification. It
@@ -45,14 +39,13 @@ quantitative software and statistical methods. Data Brief. 2015 Dec
 ## Examples
 
 ``` r
-GetData('Exp2_R10_pept')
+GetData("Exp2_R10_pept")
 #> see ?DaparToolshedData and browseVignettes('DaparToolshedData') for documentation
 #> downloading 1 resources
 #> retrieving 1 resource
 #> 
 #> loading from cache
-#> An instance of class QFeatures (type: bulk) with 2 sets:
+#> An instance of class QFeatures (type: bulk) with 1 set:
 #> 
-#>  [1] original: SummarizedExperiment with 5633 rows and 6 columns 
-#>  [2] logAssay: SummarizedExperiment with 5633 rows and 6 columns 
+#>  [1] Convert: SummarizedExperiment with 5633 rows and 6 columns 
 ```

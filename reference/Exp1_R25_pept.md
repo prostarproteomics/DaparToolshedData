@@ -16,12 +16,6 @@ The dataset is either available as a CSV file (see
 inst/extdata/Exp1_R25_pept.txt). In the latter case, the quantitative
 data are those of the raw intensities.
 
-## Usage
-
-``` r
-data(Exp1_R25_pept)
-```
-
 ## Format
 
 An object of class \`QFeatures\` related to proteins quantification. It
@@ -47,15 +41,41 @@ experiments. Proteomics, 16(1), 29-32.
 ## Examples
 
 ``` r
-GetData('Exp1_R25_pept')
+GetData("Exp1_R25_pept")
 #> 
 #> see ?DaparToolshedData and browseVignettes('DaparToolshedData') for documentation
 #> downloading 1 resources
 #> retrieving 1 resource
-#> 
-#> loading from cache
-#> An instance of class QFeatures (type: bulk) with 2 sets:
-#> 
-#>  [1] original: SummarizedExperiment with 13919 rows and 6 columns 
-#>  [2] logAssay: SummarizedExperiment with 13919 rows and 6 columns 
+#> Warning: download failed
+#>   web resource path: ‘https://experimenthub.bioconductor.org/fetch/10329’
+#>   local file path: ‘/home/runner/.cache/R/ExperimentHub/22e954ddcbc4_10329’
+#>   reason: HTTP 504 Gateway Timeout.
+#> Warning: bfcadd() failed; resource removed
+#>   rid: BFC3
+#>   fpath: ‘https://experimenthub.bioconductor.org/fetch/10329’
+#>   reason: download failed
+#> Warning: download failed
+#>   hub path: ‘https://experimenthub.bioconductor.org/fetch/10329’
+#>   cache resource: ‘EH10262 : 10329’
+#>   reason: bfcadd() failed; see warnings()
+#> Error loading resource.
+#>  attempting to re-download
+#> downloading 1 resources
+#> retrieving 1 resource
+#> Warning: download failed
+#>   web resource path: ‘https://experimenthub.bioconductor.org/fetch/10329’
+#>   local file path: ‘/home/runner/.cache/R/ExperimentHub/22e92f927e27_10329’
+#>   reason: HTTP 504 Gateway Timeout.
+#> Warning: bfcadd() failed; resource removed
+#>   rid: BFC4
+#>   fpath: ‘https://experimenthub.bioconductor.org/fetch/10329’
+#>   reason: download failed
+#> Warning: download failed
+#>   hub path: ‘https://experimenthub.bioconductor.org/fetch/10329’
+#>   cache resource: ‘EH10262 : 10329’
+#>   reason: bfcadd() failed; see warnings()
+#> Error: failed to load resource
+#>   name: EH10262
+#>   title: Exp1_R25_pept
+#>   reason: 1 resources failed to download
 ```

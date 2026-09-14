@@ -22,13 +22,6 @@ and details in the next section.
 ``` r
 
 library("DaparToolshedData")
-```
-
-    ## Warning: replacing previous import 'S4Arrays::makeNindexFromArrayViewport' by
-    ## 'DelayedArray::makeNindexFromArrayViewport' when loading 'SummarizedExperiment'
-
-``` r
-
 DaparToolshedData()
 ```
 
@@ -131,6 +124,14 @@ Load datasets with (example for the Exp1_R25_prot dataset)
 GetData('Exp1_R25_prot')
 ```
 
+    ## see ?DaparToolshedData and browseVignettes('DaparToolshedData') for documentation
+
+    ## loading from cache
+
+    ## An instance of class QFeatures (type: bulk) with 1 set:
+    ## 
+    ##  [1] Convert: SummarizedExperiment with 2384 rows and 6 columns
+
 ## sessionInfo()
 
 ``` r
@@ -138,9 +139,9 @@ GetData('Exp1_R25_prot')
 sessionInfo()
 ```
 
-    ## R version 4.6.0 (2026-04-24)
+    ## R version 4.6.1 (2026-06-24)
     ## Platform: x86_64-pc-linux-gnu
-    ## Running under: Ubuntu 24.04.4 LTS
+    ## Running under: Ubuntu 24.04.5 LTS
     ## 
     ## Matrix products: default
     ## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
@@ -159,53 +160,54 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ## [1] DaparToolshedData_0.99.17 BiocStyle_2.40.0         
+    ## [1] DaparToolshedData_0.99.21 BiocStyle_2.40.0         
     ## 
     ## loaded via a namespace (and not attached):
     ##  [1] tidyselect_1.2.1            dplyr_1.2.1                
-    ##  [3] blob_1.3.0                  Biostrings_2.80.1          
+    ##  [3] blob_1.3.0                  Biostrings_2.80.2          
     ##  [5] filelock_1.0.3              fastmap_1.2.0              
     ##  [7] lazyeval_0.2.3              BiocFileCache_3.2.0        
     ##  [9] digest_0.6.39               lifecycle_1.0.5            
     ## [11] cluster_2.1.8.2             ProtGenerics_1.44.0        
-    ## [13] KEGGREST_1.52.0             RSQLite_3.53.1             
-    ## [15] magrittr_2.0.5              compiler_4.6.0             
-    ## [17] rlang_1.2.0                 sass_0.4.10                
-    ## [19] tools_4.6.0                 igraph_2.3.2               
-    ## [21] yaml_2.3.12                 knitr_1.51                 
+    ## [13] KEGGREST_1.52.2             RSQLite_3.53.3             
+    ## [15] magrittr_2.0.5              compiler_4.6.1             
+    ## [17] rlang_1.3.0                 sass_0.4.10                
+    ## [19] tools_4.6.1                 igraph_2.3.3               
+    ## [21] yaml_2.3.12                 knitr_1.52                 
     ## [23] S4Arrays_1.12.0             htmlwidgets_1.6.4          
-    ## [25] bit_4.6.0                   curl_7.1.0                 
+    ## [25] bit_4.6.0                   curl_8.0.0                 
     ## [27] DelayedArray_0.38.2         plyr_1.8.9                 
-    ## [29] abind_1.4-8                 purrr_1.2.2                
-    ## [31] BiocGenerics_0.58.1         desc_1.4.3                 
-    ## [33] grid_4.6.0                  stats4_4.6.0               
-    ## [35] ExperimentHub_3.2.0         MASS_7.3-65                
-    ## [37] MultiAssayExperiment_1.38.0 SummarizedExperiment_1.42.0
-    ## [39] cli_3.6.6                   crayon_1.5.3               
-    ## [41] rmarkdown_2.31              ragg_1.5.2                 
-    ## [43] generics_0.1.4              otel_0.2.0                 
-    ## [45] httr_1.4.8                  reshape2_1.4.5             
-    ## [47] DBI_1.3.0                   cachem_1.1.0               
-    ## [49] stringr_1.6.0               AnnotationDbi_1.74.0       
-    ## [51] AnnotationFilter_1.36.0     BiocManager_1.30.27        
-    ## [53] XVector_0.52.0              matrixStats_1.5.0          
-    ## [55] vctrs_0.7.3                 Matrix_1.7-5               
-    ## [57] jsonlite_2.0.0              bookdown_0.46              
-    ## [59] IRanges_2.46.0              S4Vectors_0.50.1           
-    ## [61] bit64_4.8.2                 clue_0.3-68                
-    ## [63] systemfonts_1.3.2           tidyr_1.3.2                
-    ## [65] jquerylib_0.1.4             glue_1.8.1                 
-    ## [67] pkgdown_2.2.0               QFeatures_1.22.0           
-    ## [69] stringi_1.8.7               BiocVersion_3.23.1         
-    ## [71] GenomicRanges_1.64.0        tibble_3.3.1               
-    ## [73] pillar_1.11.1               rappdirs_0.3.4             
-    ## [75] htmltools_0.5.9             Seqinfo_1.2.0              
-    ## [77] R6_2.6.1                    dbplyr_2.5.2               
-    ## [79] httr2_1.2.2                 textshaping_1.0.5          
-    ## [81] evaluate_1.0.5              lattice_0.22-9             
-    ## [83] Biobase_2.72.0              AnnotationHub_4.2.0        
-    ## [85] png_0.1-9                   memoise_2.0.1              
-    ## [87] bslib_0.11.0                Rcpp_1.1.1-1.1             
-    ## [89] SparseArray_1.12.2          xfun_0.58                  
-    ## [91] MsCoreUtils_1.24.0          fs_2.1.0                   
-    ## [93] MatrixGenerics_1.24.0       pkgconfig_2.0.3
+    ## [29] abind_1.4-8                 withr_3.0.3                
+    ## [31] purrr_1.2.2                 BiocGenerics_0.58.1        
+    ## [33] desc_1.4.3                  grid_4.6.1                 
+    ## [35] stats4_4.6.1                ExperimentHub_3.2.2        
+    ## [37] MASS_7.3-65                 MultiAssayExperiment_1.38.0
+    ## [39] SummarizedExperiment_1.42.0 cli_3.6.6                  
+    ## [41] crayon_1.5.3                rmarkdown_2.32             
+    ## [43] ragg_1.5.2                  generics_0.1.4             
+    ## [45] otel_0.2.0                  httr_1.4.9                 
+    ## [47] reshape2_1.4.5              DBI_1.3.0                  
+    ## [49] cachem_1.1.0                stringr_1.6.0              
+    ## [51] AnnotationDbi_1.74.0        AnnotationFilter_1.36.0    
+    ## [53] BiocManager_1.30.27         XVector_0.52.0             
+    ## [55] matrixStats_1.5.0           vctrs_0.7.3                
+    ## [57] Matrix_1.7-5                jsonlite_2.0.0             
+    ## [59] bookdown_0.48               IRanges_2.46.0             
+    ## [61] S4Vectors_0.50.2            bit64_4.8.6                
+    ## [63] clue_0.3-68                 systemfonts_1.3.2          
+    ## [65] tidyr_1.3.2                 jquerylib_0.1.4            
+    ## [67] glue_1.8.1                  pkgdown_2.2.1              
+    ## [69] QFeatures_1.22.0            stringi_1.8.9              
+    ## [71] BiocVersion_3.23.1          GenomicRanges_1.64.0       
+    ## [73] tibble_3.3.1                pillar_1.11.1              
+    ## [75] rappdirs_0.3.4              htmltools_0.5.9            
+    ## [77] Seqinfo_1.2.0               R6_2.6.1                   
+    ## [79] dbplyr_2.6.0                httr2_1.3.0                
+    ## [81] textshaping_1.0.5           evaluate_1.0.5             
+    ## [83] lattice_0.22-9              Biobase_2.72.0             
+    ## [85] AnnotationHub_4.2.2         png_0.1-9                  
+    ## [87] memoise_2.0.1               bslib_0.12.0               
+    ## [89] Rcpp_1.1.2                  SparseArray_1.12.2         
+    ## [91] xfun_0.60                   MsCoreUtils_1.24.0         
+    ## [93] fs_2.1.0                    MatrixGenerics_1.24.0      
+    ## [95] pkgconfig_2.0.3

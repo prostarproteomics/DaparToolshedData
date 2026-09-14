@@ -15,7 +15,7 @@ Source:
 edyp-lab (2026). *DaparToolshedData*.
 [doi:10.18129/B9.bioc.DaparToolshedData](https://doi.org/10.18129/B9.bioc.DaparToolshedData).
 https://github.com/edyp-lab/DaparToolshedData/DaparToolshedData - R
-package version 0.99.17,
+package version 0.99.21,
 <http://www.bioconductor.org/packages/DaparToolshedData>.
 
     @Manual{,
@@ -23,7 +23,7 @@ package version 0.99.17,
       author = {{edyp-lab}},
       year = {2026},
       url = {http://www.bioconductor.org/packages/DaparToolshedData},
-      note = {https://github.com/edyp-lab/DaparToolshedData/DaparToolshedData - R package version 0.99.17},
+      note = {https://github.com/edyp-lab/DaparToolshedData/DaparToolshedData - R package version 0.99.21},
       doi = {10.18129/B9.bioc.DaparToolshedData},
     }
 
