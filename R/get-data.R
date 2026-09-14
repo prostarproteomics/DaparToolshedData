@@ -13,7 +13,7 @@
 #' @importFrom S4Vectors mcols
 #' @export
 GetData <- function(name) {
-  eh = ExperimentHub::ExperimentHub()
+  eh <- ExperimentHub::ExperimentHub()
   object <- query(eh, "DaparToolshedData")
   ind <- which(mcols(object)$title == name)
   .name <- rownames(mcols(object))[ind]

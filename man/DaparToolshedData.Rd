@@ -10,14 +10,13 @@ DaparToolshedData()
 A `data.frame` describing the data available in `DaparToolshedData`.
 }
 \description{
-The DaparToolshedData package provides example mass spectrometry data 
+The DaparToolshedData package provides example mass spectrometry data
 from proteomics experiments.
 
 The [DaparToolshedData()] function returns a `data.frame` with all the
 annotated datasets provided in the package.
 }
 \examples{
-
 DaparToolshedData()
 
 

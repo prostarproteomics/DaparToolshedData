@@ -48,8 +48,8 @@ create_Exp1_R2_pept <- function(){
   require(QFeatures)
   require(DaparToolshed)
   
-  data.file <- system.file("extdata", "Exp1_R2_pept.txt", package="DaparToolshedData")
-  data <- utils::read.table(data.file, header=TRUE, sep="\t", as.is=TRUE, stringsAsFactors = FALSE)
+  data.file <- system.file("extdata", "Exp1_R2_pept.txt.gz", package="DaparToolshedData")
+  data <- utils::read.table(gzfile(data.file), header=TRUE, sep="\t", as.is=TRUE, stringsAsFactors = FALSE)
   
   sample.file <- system.file("extdata", "samples_Exp1_R2.txt", package="DaparToolshedData")
   sample <- utils::read.table(sample.file, header=TRUE, sep=" ", as.is=TRUE, stringsAsFactors = FALSE)
@@ -109,8 +109,8 @@ create_Exp1_R25_pept <- function(){
   require(QFeatures)
   require(DaparToolshed)
   
-  data.file <- system.file("extdata", "Exp1_R25_pept.txt", package="DaparToolshedData")
-  data <- utils::read.table(data.file, header=TRUE, sep="\t", as.is=TRUE, stringsAsFactors = FALSE)
+  data.file <- system.file("extdata", "Exp1_R25_pept.txt.gz", package="DaparToolshedData")
+  data <- utils::read.table(gzfile(data.file), header=TRUE, sep="\t", as.is=TRUE, stringsAsFactors = FALSE)
   
   sample.file <- system.file("extdata", "samples_Exp1_R25.txt", package="DaparToolshedData")
   sample <- utils::read.table(sample.file, header=TRUE, sep=" ", as.is=TRUE, stringsAsFactors = FALSE)

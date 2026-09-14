@@ -62,7 +62,7 @@ BiocManager::install("DaparToolshedData")
 
 Load datasets with (example for the Exp1_R25_prot dataset)
 
-```{r, eval = FALSE}
+```{r availableData}
 GetData('Exp1_R25_prot')
 ```
 

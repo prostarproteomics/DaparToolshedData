@@ -9,9 +9,6 @@ An object of class `QFeatures` related to proteins
 quantification. It contains 6 samples divided into two conditions
 (25 fmol and 10 fmol) and 13919 peptides
 }
-\usage{
-data(Exp1_R25_pept)
-}
 \value{
 An object of class `QFeatures` related to proteins
 quantification.
@@ -25,16 +22,15 @@ details). It contains the abundance values of the different human and
 yeast proteins identified and quantified in these two conditions. The two
 conditions represent the measured abundances of proteins when respectively
 25 fmol and 10 fmol of UPS1 human proteins were mixed with the yeast extract
-before mass spectrometry analyses. This results in a concentration ratio of 2.5.
-Three technical replicates were acquired
-for each condition.
+before mass spectrometry analyses. This results in a concentration ratio of 
+2.5. Three technical replicates were acquired for each condition.
 
 The dataset is either available as a CSV file
-(see inst/extdata/Exp1_R25_pept.txt). In the latter case, 
+(see inst/extdata/Exp1_R25_pept.txt). In the latter case,
 the quantitative data are those of the raw intensities.
 }
 \examples{
-GetData('Exp1_R25_pept')
+GetData("Exp1_R25_pept")
 
 }
 \references{

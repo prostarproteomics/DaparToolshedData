@@ -11,15 +11,13 @@
 #' yeast proteins identified and quantified in these two conditions. The two
 #' conditions represent the measured abundances of proteins when respectively
 #' 25 fmol and 10 fmol of UPS1 human proteins were mixed with the yeast extract
-#' before mass spectrometry analyses. This results in a concentration ratio of 2.5.
-#' Three technical replicates were acquired
-#' for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 
+#' 2.5. Three technical replicates were acquired for each condition.
 #'
 #' The dataset is either available as a CSV file
 #' (see inst/extdata/Exp1_R25_prot.txt), or as a `QFeatures` structure
 #' (Exp1_R25_prot.ft). In the latter case, the quantitative data are those of
 #' the raw intensities.
-#' @usage data(Exp1_R25_prot)
 #' @return An object of class `QFeatures` related to proteins
 #' quantification.
 #' @format An object of class `QFeatures` related to proteins
@@ -38,9 +36,9 @@
 #' @keywords datasets
 #'
 #' @import QFeatures
-#' 
+#'
 #' @examples
-#' GetData('Exp1_R25_prot')
+#' GetData("Exp1_R25_prot")
 #'
 NULL
 
@@ -58,14 +56,12 @@ NULL
 #' yeast proteins identified and quantified in these two conditions. The two
 #' conditions represent the measured abundances of proteins when respectively
 #' 25 fmol and 10 fmol of UPS1 human proteins were mixed with the yeast extract
-#' before mass spectrometry analyses. This results in a concentration ratio of 2.5.
-#' Three technical replicates were acquired
-#' for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 
+#' 2.5. Three technical replicates were acquired for each condition.
 #'
 #' The dataset is either available as a CSV file
-#' (see inst/extdata/Exp1_R25_pept.txt). In the latter case, 
+#' (see inst/extdata/Exp1_R25_pept.txt). In the latter case,
 #' the quantitative data are those of the raw intensities.
-#' @usage data(Exp1_R25_pept)
 #' @return An object of class `QFeatures` related to proteins
 #' quantification.
 #' @format An object of class `QFeatures` related to proteins
@@ -85,9 +81,9 @@ NULL
 #' @keywords datasets
 #'
 #' @import QFeatures
-#' 
+#'
 #' @examples
-#' GetData('Exp1_R25_pept')
+#' GetData("Exp1_R25_pept")
 #'
 NULL
 
@@ -105,15 +101,13 @@ NULL
 #' yeast proteins identified and quantified in these two conditions. The two
 #' conditions represent the measured abundances of proteins when respectively
 #' 5 fmol and 10 fmol of UPS1 human proteins were mixed with the yeast extract
-#' before mass spectrometry analyses. This results in a concentration ratio of 2.
-#' Three technical replicates were acquired
-#' for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 
+#' 2. Three technical replicates were acquired for each condition.
 #'
 #' The dataset is either available as a CSV file
 #' (see inst/extdata/Exp1_R2_prot.txt), or as a `QFeatures` structure
 #' (Exp1_R2_prot.ft). In the latter case, the quantitative data are those of
 #' the raw intensities.
-#' @usage data(Exp1_R2_prot)
 #' @return An object of class `QFeatures` related to proteins
 #' quantification.
 #' @format An object of class `QFeatures` related to proteins
@@ -133,13 +127,11 @@ NULL
 #' @keywords datasets
 #'
 #' @import QFeatures
-#' 
+#'
 #' @examples
-#' GetData('Exp1_R2_prot')
+#' GetData("Exp1_R2_prot")
 #'
 NULL
-
-
 
 
 #' Exp1_R2_pept dataset
@@ -155,13 +147,11 @@ NULL
 #' yeast proteins identified and quantified in these two conditions. The two
 #' conditions represent the measured abundances of proteins when respectively
 #' 5 fmol and 10 fmol of UPS1 human proteins were mixed with the yeast extract
-#' before mass spectrometry analyses. This results in a concentration ratio of 2.
-#' Three technical replicates were acquired
-#' for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 
+#' 2. Three technical replicates were acquired for each condition.
 #'
 #' The dataset is either available as a CSV file
 #' (see inst/extdata/Exp1_R2_prot.txt)
-#' @usage data(Exp1_R2_pept)
 #' @return An object of class `QFeatures` related to proteins
 #' quantification.
 #' @format An object of class `QFeatures` related to proteins
@@ -181,12 +171,11 @@ NULL
 #' @keywords datasets
 #'
 #' @import QFeatures
-#' 
+#'
 #' @examples
-#' GetData('Exp1_R2_pept')
+#' GetData("Exp1_R2_pept")
 #'
 NULL
-
 
 
 #' Exp2_R2_prot dataset
@@ -202,16 +191,14 @@ NULL
 #' yeast peptides identified and quantified in these two conditions. The two
 #' conditions represent the measured abundances of peptides when respectively
 #' 25 fmol and 50 fmol of UPS1 human proteins were mixed with the yeast extract
-#' before mass spectrometry analyses. This results in a concentration ratio of 2.
-#' Three technical replicates were
-#' acquired for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 
+#' 2. Three technical replicates were acquired for each condition.
 #'
 #'
 #' The dataset is either available as a CSV file
 #' (see inst/extdata/Exp2_R2_prot.txt), or as a `QFeatures` structure
 #' (Exp2_R2_prot.ft). In the latter case, the quantitative data are those of
 #' the raw intensities.
-#' @usage data(Exp2_R2_prot)
 #' @return An object of class `QFeatures` related to proteins
 #' quantification.
 #' @format An object of class `QFeatures` related to proteins
@@ -221,24 +208,21 @@ NULL
 #' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D,
 #' Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M,
 #' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
-#' Spiked proteomic standard dataset for testing label-free quantitative software
-#' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
+#' Spiked proteomic standard dataset for testing label-free quantitative 
+#' software and statistical methods. 
+#' Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 #'
 #' @keywords datasets
 #'
 #' @import QFeatures
 #'
 #' @examples
-#' GetData('Exp2_R2_prot')
-#' 
+#' GetData("Exp2_R2_prot")
+#'
 NULL
 
 
-
-
-
-
-#################################################################################
+################################################################################
 
 
 #' Exp2_R2_pept dataset
@@ -254,14 +238,13 @@ NULL
 #' yeast peptides identified and quantified in these two conditions. The two
 #' conditions represent the measured abundances of peptides when respectively
 #' 25 fmol and 50 fmol of UPS1 human proteins were mixed with the yeast extract
-#' before mass spectrometry analyses. This results in a concentration ratio of 2.
-#' Three technical replicates were acquired for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 
+#' 2. Three technical replicates were acquired for each condition.
 #'
 #' The dataset is either available as a CSV file
 #' (see inst/extdata/Exp2_R2_pept.txt), or as a `QFeatures` structure
 #' (Exp2_R2_pept.ft). In the latter case, the quantitative data are those of
 #' the raw intensities.
-#' @usage data(Exp2_R2_pept)
 #' @return An object of class `QFeatures` related to peptides
 #' quantification.
 #' @format An object of class `QFeatures` related to peptides
@@ -272,21 +255,20 @@ NULL
 #' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D,
 #' Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M,
 #' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
-#' Spiked proteomic standard dataset for testing label-free quantitative software
-#' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
+#' Spiked proteomic standard dataset for testing label-free quantitative 
+#' software and statistical methods. 
+#' Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 #'
 #' @keywords datasets
 #'
 #' @import QFeatures
 #'
 #' @examples
-#' GetData('Exp2_R2_pept')
+#' GetData("Exp2_R2_pept")
 NULL
 
 
-
-
-#################################################################################
+################################################################################
 
 
 #' Exp2_R10_prot dataset
@@ -302,15 +284,14 @@ NULL
 #' yeast peptides identified and quantified in these two conditions. The two
 #' conditions represent the measured abundances of peptides when respectively
 #' 10 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract
-#' before mass spectrometry analyses. This results in a concentration ratio of 10.
-#' Three technical replicates were acquired for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 
+#' 10. Three technical replicates were acquired for each condition.
 #'
 #'
 #' The dataset is either available as a CSV file
 #' (see inst/extdata/Exp2_R10_prot.txt), or as a `QFeatures` structure
 #' (Exp2_R10_prot.ft). In the latter case, the quantitative data are those of
 #' the raw intensities.
-#' @usage data(Exp2_R10_prot)
 #' @return An object of class `QFeatures` related to proteins
 #' quantification.
 #' @format An object of class `QFeatures` related to proteins
@@ -321,24 +302,21 @@ NULL
 #' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D,
 #' Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M,
 #' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
-#' Spiked proteomic standard dataset for testing label-free quantitative software
-#' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
+#' Spiked proteomic standard dataset for testing label-free quantitative 
+#' software and statistical methods. 
+#' Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 #'
 #' @keywords datasets
 #'
 #' @import QFeatures
-#' 
+#'
 #' @examples
-#' GetData('Exp2_R10_prot')
+#' GetData("Exp2_R10_prot")
 #'
 NULL
 
 
-
-
-
-
-#################################################################################
+################################################################################
 
 
 #' Exp2_R10_pept dataset
@@ -354,15 +332,14 @@ NULL
 #' yeast peptides identified and quantified in these two conditions. The two
 #' conditions represent the measured abundances of peptides when respectively
 #' 10 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract
-#' before mass spectrometry analyses. This results in a concentration ratio of 10.
-#' Three technical replicates were acquired for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 
+#' 10. Three technical replicates were acquired for each condition.
 #'
 #'
 #' The dataset is either available as a CSV file
 #' (see inst/extdata/Exp2_R10_pept.txt), or as a `QFeatures` structure
 #' (Exp2_R10_pept.ft). In the latter case, the quantitative data are those of
 #' the raw intensities.
-#' @usage data(Exp2_R10_pept)
 #' @return An object of class `QFeatures` related to peptides
 #' quantification.
 #' @format An object of class `QFeatures` related to peptides
@@ -373,25 +350,21 @@ NULL
 #' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D,
 #' Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M,
 #' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
-#' Spiked proteomic standard dataset for testing label-free quantitative software
-#' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
+#' Spiked proteomic standard dataset for testing label-free quantitative 
+#' software and statistical methods. 
+#' Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 #'
 #' @keywords datasets
 #'
 #' @import QFeatures
 #'
 #' @examples
-#' GetData('Exp2_R10_pept')
-#' 
+#' GetData("Exp2_R10_pept")
+#'
 NULL
 
 
-
-
-
-
-
-#################################################################################
+################################################################################
 
 
 #' Exp2_R100_prot dataset
@@ -407,15 +380,14 @@ NULL
 #' yeast peptides identified and quantified in these two conditions. The two
 #' conditions represent the measured abundances of peptides when respectively
 #' 1 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract
-#' before mass spectrometry analyses. This results in a concentration ratio of 100.
-#' Three technical replicates were acquired for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 
+#' 100. Three technical replicates were acquired for each condition.
 #'
 #'
 #' The dataset is either available as a CSV file
 #' (see inst/extdata/Exp2_R100_prot.txt), or as a `QFeatures` structure
 #' (Exp2_R100_prot.ft). In the latter case, the quantitative data are those of
 #' the raw intensities.
-#' @usage data(Exp2_R100_prot)
 #' @return An object of class `QFeatures` related to proteins
 #' quantification.
 #' @format An object of class `QFeatures` related to proteins
@@ -426,25 +398,21 @@ NULL
 #' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D,
 #' Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M,
 #' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
-#' Spiked proteomic standard dataset for testing label-free quantitative software
-#' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
+#' Spiked proteomic standard dataset for testing label-free quantitative 
+#' software and statistical methods. 
+#' Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 #'
 #' @keywords datasets
 #'
 #' @import QFeatures
 #'
 #' @examples
-#' GetData('Exp2_R100_prot')
-#' 
-#' 
+#' GetData("Exp2_R100_prot")
+#'
 NULL
 
 
-
-
-
-
-#################################################################################
+################################################################################
 
 
 #' Exp2_R100_pept dataset
@@ -460,15 +428,14 @@ NULL
 #' yeast peptides identified and quantified in these two conditions. The two
 #' conditions represent the measured abundances of peptides when respectively
 #' 1 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract
-#' before mass spectrometry analyses. This results in a concentration ratio of 100.
-#' Three technical replicates were acquired for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 
+#' 100. Three technical replicates were acquired for each condition.
 #'
 #'
 #' The dataset is either available as a CSV file
 #' (see inst/extdata/Exp2_R100_pept.txt), or as a `QFeatures` structure
 #' (Exp2_R100_peptt.ft). In the latter case, the quantitative data are those of
 #' the raw intensities.
-#' @usage data(Exp2_R100_pept)
 #' @return An object of class `QFeatures` related to peptides
 #' quantification.
 #' @format An object of class `QFeatures` related to peptides
@@ -478,14 +445,15 @@ NULL
 #' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D,
 #' Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M,
 #' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
-#' Spiked proteomic standard dataset for testing label-free quantitative software
-#' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
+#' Spiked proteomic standard dataset for testing label-free quantitative 
+#' software and statistical methods. 
+#' Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 #'
 #' @keywords datasets
 #'
 #' @import QFeatures
-#' 
+#'
 #' @examples
-#' GetData('Exp2_R100_pept')
+#' GetData("Exp2_R100_pept")
 #'
 NULL
